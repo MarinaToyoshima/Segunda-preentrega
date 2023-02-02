@@ -277,6 +277,22 @@ section {
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* CONTACTOS */
+.contacto {
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ******************************************
+           RESPONSIVE --- MOVILE FIRST
+ *********************************************
+*/
 @media (min-width: 768px) {
     .menu {
         flex-direction: row;
@@ -425,8 +441,17 @@ section {
         padding-bottom: 1rem;
 
     }
+
     .galeria:hover {
         scale: 1.2;
+    }
+
+    /* CONTACTOS */
+    .contacto {
+        font-size: 26px;
+        font-family: 'Merriweather', serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Roboto Slab', serif;
     }
 
 
