@@ -62,20 +62,6 @@ body {
     align-items: center;
 }
 
-
-
-/* .slogan {
-    font-family: 'Pacifico', cursive;
-    font-family: 'Roboto Slab', serif;
-    display: inline;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 30px;
-    padding-bottom: 10px;
-    color: #800E13;
-    font-size: 25px;
-} */
-
 h2 {
     font-family: 'Pacifico', cursive;
     font-family: 'Roboto Slab', serif;
@@ -85,7 +71,6 @@ h2 {
     color: #800E13;
     font-size: 20px;
     padding: 1rem;
-
 
 }
 
@@ -218,8 +203,6 @@ h3 {
 
 .invitacion__opciones {
     font-size: 15px;
-
-
 }
 
 /* TRANSFORMACIÓN Y ANIMACIONES  */
@@ -240,6 +223,7 @@ h3 {
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: #800E13;
 }
 
 .footer__título {
@@ -250,7 +234,8 @@ h3 {
     display: inline-flexbox;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: #800E13;
+    color: #e7e2e3;
+    padding-top: 1rem;
 
 }
 
@@ -298,33 +283,152 @@ section {
     }
 
     .img-logo {
-        width: 250px;
+        width: 230px;
     }
+
     .menu a {
         color: #e7e2e3;
         text-decoration: none;
         font-family: 'Pacifico', cursive;
         font-family: 'Roboto Slab', serif;
         font-size: 20px;
-    
+
     }
 
     .menu__inicio ul {
-        height: 196.58px;
+        height: 185.84px;
+        width: 78vw;
         font-family: 'Pacifico', cursive;
         font-family: 'Roboto Slab', serif;
         font-size: 20px;
     }
-    .menu a:hover{
+
+    .menu a:hover {
         font-size: 23px;
 
     }
-    .menu__inicio:hover{
+
+    /* .menu__inicio:hover {
         scale: 1.3;
+    } */
+    main {
+        width: 100vw;
     }
+
+    h2 {
+        font-family: 'Pacifico', cursive;
+        font-family: 'Roboto Slab', serif;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        color: #800E13;
+        font-size: 18px;
+        padding: 1rem;
+
+
+    }
+
+    h2 {
+        width: 100%;
+        text-align: justify;
+        align-items: center;
+        color: #800E13;
+        font-size: 35px;
+        padding: 2rem;
+        /* padding-left: 10rem; */
+
+
+    }
+
     .atributos {
         display: grid;
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        /* padding-left: 10rem; */
+    }
+
+    .atributos__1 {
+        width: 33vw;
+        height: 40vh;
+        font-size: 28px;
+
+    }
+
+    .atributos__2 {
+        width: 33vw;
+        height: 40vh;
+
+    }
+
+    .atributos__3 {
+        width: 33vw;
+        height: 40vh;
+        font-size: 28px;
+
+    }
+
+    .atributos__4 {
+        width: 33vw;
+        height: 40vh;
+
+    }
+
+    .atributos__5 {
+        width: 33vw;
+        height: 40vh;
+        font-size: 28px;
+
+    }
+
+    .atributos__6 {
+        width: 33vw;
+        height: 40vh;
+
+    }
+
+    .invitacion {
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .invitacion__opciones {
+        font-size: 20px;
+    }
+
+    .footer__título {
+        font-size: 20px;
+    }
+
+    .footer__texto {
+        font-size: 18px;
+    }
+
+    /* GALERÍA */
+    section {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .galeria img {
+        width: 25vw;
+    }
+
+    .galeria {
+        width: 25vw;
+        text-align: center;
+
+    }
+
+    .galeria P {
+        font-size: 20px;
+        padding-bottom: 1rem;
+
+    }
+    .galeria:hover {
+        scale: 1.2;
+    }
+
 
 
 }
