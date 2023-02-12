@@ -43,6 +43,7 @@ body {
     align-items: center;
 }
 
+
 .menu a {
     color: #e7e2e3;
     text-decoration: none;
@@ -50,6 +51,18 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
 
+}
+
+/* boostrap navbar */
+.navbar{
+    background-color: #800E13!important;
+    width: 100vw!important;
+    height: 35vh!important;
+    font-family: 'Pacifico', cursive!important;
+    font-family: 'Roboto Slab', serif!important;
+    font-size: 15px!important;
+
+    
 }
 
 .menu__inicio ul {
@@ -293,13 +306,21 @@ section {
            RESPONSIVE --- MOVILE FIRST
  *********************************************
 */
-@media (min-width: 768px) {
+@media (min-width: 425px) {
     .menu {
         flex-direction: row;
     }
 
     .img-logo {
         width: 230px;
+    }
+    .navbar{
+        background-color: #800E13!important;
+        width: 100vw!important;
+        height: 80px;
+        font-family: 'Pacifico', cursive!important;
+        font-family: 'Roboto Slab', serif!important;
+        font-size: 10px!important;
     }
 
     .menu a {
@@ -455,5 +476,16 @@ section {
     }
 
 
+
+}
+@media (max-width: 424px) {
+    .navbar{
+        background-color: #800E13!important;
+        width: 100vw!important;
+        height: 60px!important;
+        font-family: 'Pacifico', cursive!important;
+        font-family: 'Roboto Slab', serif!important;
+        font-size: 10px!important;
+    }
 
 }
