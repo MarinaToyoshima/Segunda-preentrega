@@ -57,7 +57,7 @@ body {
 .navbar{
     background-color: #800E13!important;
     width: 100vw!important;
-    height: 35vh!important;
+    height: 33vh!important;
     font-family: 'Pacifico', cursive!important;
     font-family: 'Roboto Slab', serif!important;
     font-size: 15px!important;
@@ -65,25 +65,23 @@ body {
     
 }
 
-.menu__inicio ul {
-    background-color: #800E13;
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
+/* .menu__inicio ul {
+  
     width: 100vw;
     height: 7vh;
-    align-items: center;
-}
+    
+} */
 
-h2 {
+h1 {
     font-family: 'Pacifico', cursive;
     font-family: 'Roboto Slab', serif;
     width: 95vw;
     text-align: center;
     align-items: center;
     color: #800E13;
-    font-size: 20px;
+    font-size: 35px;
     padding: 1rem;
+    font-weight: 100;
 
 }
 
@@ -256,7 +254,19 @@ h3 {
     font-size: 13.5px;
 }
 
-/* PÁGINA DE GALERIA */
+/* SECCIÓN DEPARTAMENTOS */
+.departamentos_caracteristicas{
+    padding: 1rem!important;
+}
+.departamentos_descripción container{
+    padding: 0;
+    height: 10vh;
+
+}
+
+
+
+/* SECCIÓN GALERIA */
 
 h1 {
     font-family: 'Pacifico', cursive;
@@ -290,7 +300,7 @@ section {
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* CONTACTOS */
+/* SECCIÓN CONTACTOS */
 .contacto {
     font-size: 16px;
     font-family: 'Merriweather', serif;
@@ -299,6 +309,8 @@ section {
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
@@ -331,14 +343,14 @@ section {
         font-size: 20px;
 
     }
-
+/* 
     .menu__inicio ul {
         height: 185.84px;
         width: 78vw;
         font-family: 'Pacifico', cursive;
         font-family: 'Roboto Slab', serif;
         font-size: 20px;
-    }
+    } */
 
     .menu a:hover {
         font-size: 23px;
